@@ -2,4 +2,8 @@ $ git add --all (adds all new and/or modified files)
 $ get log - shows all history of the repository concerning the COMMITS
 $ get diff - shows unstaged differences since last commit
 $ get diff --staged - shows staged differences
-$ git reset HEAD filename - haalt deze file van de Staged af!
+$ git reset HEAD filename - remove this file from the Stage!
+$ git reset --soft HEAD^ - Changes the last COMMIT in STAGE
+$ git commit --amend -m "Add file and Add new message to previous COMMIT by the AMEND command
+$ git reset --hard HEAD^ - Delete the last COMMIT entirely including changes!
+$ git reset --hard HEAD^^ - Deletes the last 2 COMMIT entirely including changes!
