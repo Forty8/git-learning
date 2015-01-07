@@ -1,1 +1,5 @@
 $ git add --all (adds all new and/or modified files)
+$ get log - shows all history of the repository concerning the COMMITS
+$ get diff - shows unstaged differences since last commit
+$ get diff --staged - shows staged differences
+$ git reset HEAD filename - haalt deze file van de Staged af!
